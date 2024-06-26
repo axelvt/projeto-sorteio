@@ -89,3 +89,48 @@ input::placeholder{
     font-weight: 700;
     line-height: 2.5px;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .input input {
+        font-size: 0.9em;
+    }
+
+    .button button {
+        font-size: 1em;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .input {
+        flex-direction: column;
+    }
+
+    .input input {
+        font-size: 0.8em;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .button button {
+        font-size: 0.9em;
+        height: 50px;
+    }
+}

@@ -11,3 +11,4 @@ function generateNumber(){
             console.log(min, max);
             alert(result);
         }
+        
